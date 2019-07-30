@@ -431,7 +431,8 @@ background-size: 110%;
 .form-style-1 {
 	margin:10px auto;
 	width: 300px;
-	padding: 20px 12px 10px 20px;
+    margin-right: 600px;
+	padding: 0px 0px 0px 0px;
 	font: 13px 'Montserrat', sans-serif;
 }
 .form-style-1 li {
@@ -521,3 +522,4 @@ select{
     width: 300px;
     margin-top: 10px;
 }
+
