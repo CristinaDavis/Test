@@ -33,13 +33,14 @@ figure {
 
 .project figcaption{
     padding: 1em;
-    background: rgb(245,220,185);
-background: linear-gradient(90deg, rgba(245,220,185,1) 0%, rgba(254,215,190,1) 33%);
-    color: #D39131;
+    background-color: #9DCF83;
+    color: #ffffff;
+
+ 
 }
 
 .project h3{
-    color: #37495D;
+    color: #ffffff;
     margin: 0;
 }
 
@@ -183,7 +184,7 @@ cta:after{
  text-align: center;
   background-color: white;
   text-decoration: underline;
-  color: #D39131;
+  color: #CCEEFA;
   padding: 30px 30px 30px 30px 30px;
   display: block;
 }
@@ -238,17 +239,18 @@ h1{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     line-height: 10px;
-    color: #37495D;
+    color: #FCC1A5;
 }
 
 h2{
-    font-family: 'Montserrat', sans-serif; font-weight: 300;
+    font-family: 'Montserrat', sans-serif; font-weight: 600;
     font-size: 12px;
     text-align: center;
     line-height: 20px;
     text-transform: uppercase;
     padding-bottom: 20px;
-    color: #D39131;
+    color: #dee2e5;
+    
     
 }
 
@@ -262,7 +264,8 @@ h2{
 h3{
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-}
+   
+ 
 }
 
 
@@ -568,3 +571,15 @@ background: linear-gradient(90deg, rgba(245,220,185,1) 0%, rgba(254,215,190,1) 3
 
 
 /* MOBILE Project 1 ENDS HERE */
+
+
+
+
+/* MSG GIf */
+
+.msg {
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
