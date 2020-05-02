@@ -575,7 +575,7 @@ background: linear-gradient(90deg, rgba(245,220,185,1) 0%, rgba(254,215,190,1) 3
 
 
 
-/* MSG GIf */
+/* PLANO */
 
 .msg {
       display: block;
@@ -615,3 +615,37 @@ background: linear-gradient(90deg, rgba(245,220,185,1) 0%, rgba(254,215,190,1) 3
 .pno-tile:nth-child(5){
     grid-column: span 3;
 }
+
+
+
+
+/* Animation */
+.ani-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.ani-tile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.ani-tile:nth-child(1){
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.ani-tile:nth-child(2),
+
+.ani-tile:nth-child(3){
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
